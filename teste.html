@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animação com CSS e JavaScript</title>
+    <style>
+        .box {
+            width: 100px; /* Ajuste a largura para acomodar o deslocamento */
+            height: 100px;
+            background-color: red;
+            overflow: hidden;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+            border-top: 2px solid black;
+        }
+        .container {
+            width: 100%;
+            height: 40%;
+            background-color: blue;
+        }
+        .teste {
+            width: 100%;
+            height: 20%;
+            background-color: green;
+        }
+        .btn {
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    
+   <div class="box">
+       <div class="teste"></div>
+       <div class="container">
+           <button class="btn">Clique aq</button>
+       </div>
+   </div>
+   <div class="box">
+       <div class="container">
+           <button class="btn">Clique aq</button>
+       </div>
+   </div>
+
+    <script>
+        var boxes = document.querySelectorAll('.box');
+        var containers = document.querySelectorAll('.container');
+        var buttons = document.querySelectorAll('.btn');
+
+        buttons.forEach(function(btn, index) {
+            btn.addEventListener('mouseover', function() {
+                containers[index].style.height = '100%';
+            });
+        });
+    </script>
+</body>
+</html>

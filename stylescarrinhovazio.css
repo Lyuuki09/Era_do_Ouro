@@ -1,0 +1,160 @@
+* {
+    font-family: "Lovers Quarrel", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+body{
+    background-color: rgb(82, 75, 68);
+    width: 99vw;
+    height: 100%;
+}
+
+header{
+    width: 100%;
+    height: 16vh;
+    background-color: rgb(222, 209, 175);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2.3vh;
+}
+
+header svg:hover{
+    width: calc(50px * 1.5);
+    height: calc(50px * 1.5);
+    transition: 200ms;
+    cursor: pointer;
+}
+
+header svg:not(:hover){
+    width: 50px;
+    height: 50px;
+    transition: 200ms;
+}
+
+#barra{
+    height: 60px;
+    width: 2px;
+    background-color: rgba(149, 124, 98, 1);
+
+}
+
+header img{
+    transform: scale(0.7);
+    position: relative;
+    left: 125px;
+}
+
+svg{
+    position: relative;
+}
+
+#linha{
+    background-color: rgb(32,29,20);
+    width: 95vw;
+    height: 2px;
+    position: relative;
+    bottom: -10px;
+    border-radius: 100%;
+}
+
+.containercanto{
+    width: 17vw;
+    height: 16vh;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 80px;
+    display: flex;
+    align-items: center;
+}
+
+
+
+.botoes{
+    width: 100%;
+    height: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    color: rgba(50, 41, 32, 1);
+    align-items: center;
+}
+
+#seucarrinho,#total{
+    background-color: rgb(222, 209, 175);
+    font-size: 60px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    height: 70px;
+}
+
+#seucarrinho{
+    width: 220px;
+    display: flex;
+}
+
+
+
+#total{
+    height: auto;
+    width: auto;
+    display: flex;
+    white-space: nowrap;
+   
+}
+
+
+
+    
+.containerdireita{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 60%;
+}
+
+.main-carrinho{
+    width: 95vw;
+    height:auto;
+    min-height: 55vh;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    border-top: 2px solid rgb(32,29,20);
+    border-bottom: 2px solid rgb(32,29,20);
+}
+
+#vazio{
+    font-size: 60px;
+    color: rgb(32,29,20);
+
+}
+
+#fakecontainer{
+    position: absolute;
+    left: 42vw;
+}
+
+#botao{
+    width: 950px;
+    height: 250px;
+    background-image:url("img/botaocomparafuso.png");
+    transform: scale(0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150px;
+    color: rgb(32,29,20);
+}
+#item{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100vw;
+    
+    justify-items: center;
+    align-items: center;
+}

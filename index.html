@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Licorice&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lovers+Quarrel&display=swap" rel="stylesheet">
+    
+</head>
+<header>
+
+    <div id="containerInput">
+    <input type="text" id='filterInput' placeholder='Digite aqui a sua busca'>
+    </div> 
+    <a href="Carrinho.html"><svg width="51" height="49" viewBox="0 0 51 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M13.6 6.75862C13.6 3.37931 16.15 0 20.4 0H30.6C34.85 0 37.4 3.37931 37.4 6.75862V15.2069H47.6C48.5017 15.2069 49.3665 15.5629 50.0042 16.1967C50.6418 16.8304 51 17.69 51 18.5862V23.6552C51.0002 24.5223 50.665 25.3564 50.0638 25.9847C49.4626 26.6131 48.6414 26.9877 47.77 27.0311L42.6615 44.1608C42.245 45.5583 41.3853 46.7845 40.2104 47.6566C39.0354 48.5287 37.6084 48.9999 36.142 49H14.8172C13.3629 48.9999 11.947 48.5365 10.7773 47.6777C9.60756 46.8189 8.74565 45.6099 8.3181 44.2284L2.9869 27.0108C2.16262 26.9105 1.40376 26.5139 0.85351 25.8957C0.303258 25.2775 -0.000338997 24.4806 2.84062e-07 23.6552V18.5862C2.84062e-07 17.69 0.358214 16.8304 0.995837 16.1967C1.63346 15.5629 2.49826 15.2069 3.4 15.2069H13.6V6.75862ZM17 15.2069H34V6.75862C34 2.53448 31.45 1.68966 28.9 1.68966H22.1C19.55 1.68966 17 2.53448 17 6.75862V15.2069ZM34 18.5862H3.4V23.6552H47.6V18.5862H37.4V20.2759C37.4 20.724 37.2209 21.1538 36.9021 21.4706C36.5833 21.7875 36.1509 21.9655 35.7 21.9655C35.2491 21.9655 34.8167 21.7875 34.4979 21.4706C34.1791 21.1538 34 20.724 34 20.2759V18.5862ZM41.3338 27.0345L42.8808 28.5721L44.1354 27.3251L44.2204 27.0345H41.3338ZM35.6677 28.5721L37.2147 27.0345H34.1207L35.6677 28.5721ZM26.911 27.0345L28.458 28.5721L30.005 27.0345H26.911ZM21.2449 28.5721L22.7919 27.0345H19.6979L21.2449 28.5721ZM14.0318 28.5721L15.5788 27.0345H12.4848L14.0318 28.5721ZM6.5518 27.0345L6.9768 28.4132L8.364 27.0345H6.5518ZM8.1889 32.3248L8.6751 33.8945L9.2225 33.3504L8.1889 32.3248ZM43.0117 31.0913L42.8808 30.9612L40.477 33.3504L41.9135 34.7782L43.0117 31.0913ZM41.0975 37.512L41.3627 36.6216L39.2734 34.545L36.8696 36.9359L39.2734 39.325L41.0975 37.512ZM39.7154 42.1518L39.2734 41.7142L36.8696 44.1034L37.9032 45.1307C38.6104 44.7066 39.1544 44.029 39.4026 43.2011L39.7154 42.1518ZM35.9924 45.6207L35.6694 45.2997L35.3447 45.6207H35.9924ZM32.9392 45.6207L34.4658 44.1034L32.062 41.7142L29.6582 44.1034L31.1831 45.6207H32.9392ZM28.1316 45.6207H28.7793L28.4563 45.2997L28.1316 45.6207ZM25.7278 45.6207L27.2527 44.1034L24.8489 41.7142L22.4451 44.1034L23.9717 45.6207H25.7278ZM20.9185 45.6207H21.5662L21.2432 45.2997L20.9185 45.6207ZM18.5147 45.6207L20.0413 44.1034L17.6358 41.7142L15.232 44.1034L16.7586 45.6207H18.5147ZM14.3174 45.5835L14.0301 45.298L13.8465 45.4804C14.0006 45.5255 14.1576 45.5599 14.3174 45.5835ZM12.3556 44.5731L12.8282 44.1034L11.3951 42.679L11.5668 43.2366C11.7266 43.7486 12.0003 44.2031 12.3556 44.5731ZM10.3258 39.2287L10.4244 39.325L12.8282 36.9359L10.4244 34.545L9.2412 35.721L10.3258 39.2287ZM10.4244 27.3775L8.0206 29.7667L10.4244 32.1558L12.8282 29.7667L10.4244 27.3775ZM14.0301 30.9612L11.628 33.3504L14.0318 35.7413L16.4356 33.3504L14.0301 30.9612ZM17.6358 34.545L15.232 36.9359L17.6358 39.325L20.0413 36.9359L17.6358 34.545ZM18.8394 33.3504L21.2432 35.7413L23.647 33.3504L21.2432 30.9612L18.8394 33.3504ZM21.2432 38.1304L18.8394 40.5196L21.2432 42.9088L23.647 40.5196L21.2432 38.1304ZM24.8489 39.325L27.2527 36.9359L24.8489 34.545L22.4451 36.9359L24.8489 39.325ZM17.6358 32.1558L20.0413 29.7667L17.6358 27.3775L15.232 29.7667L17.6358 32.1558ZM33.2639 40.5196L35.6677 42.9088L38.0715 40.5196L35.6677 38.1304L33.2639 40.5196ZM38.0715 33.3504L35.6677 30.9612L33.2639 33.3504L35.6677 35.7413L38.0715 33.3504ZM28.4546 42.9088L30.8601 40.5196L28.4546 38.1304L26.0508 40.5196L28.4546 42.9088ZM29.6582 29.7667L32.062 32.1558L34.4658 29.7667L32.062 27.3775L29.6582 29.7667ZM27.2527 29.7667L24.8489 27.3775L22.4451 29.7667L24.8489 32.1558L27.2527 29.7667ZM39.2751 32.1558L41.6789 29.7667L39.2734 27.3775L36.8696 29.7667L39.2751 32.1558ZM26.0508 33.3504L28.4546 35.7413L30.8601 33.3504L28.4546 30.9612L26.0508 33.3504ZM14.0318 42.9088L16.4339 40.5196L14.0301 38.1304L11.628 40.5179L14.0318 42.9088ZM29.6582 36.9359L32.062 39.325L34.4658 36.9359L32.062 34.545L29.6582 36.9359Z" fill="#957C62"/></svg></a>
+        <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <g clip-path="url(#clip0_56_2)">
+            <path d="M61.0001 60.9999V57.611C61.0001 54.9146 59.929 52.3287 58.0224 50.4221C56.1157 48.5155 53.5298 47.4443 50.8334 47.4443H23.7223C21.026 47.4443 18.44 48.5155 16.5334 50.4221C14.6268 52.3287 13.5557 54.9146 13.5557 57.611V60.9999H61.0001Z" fill="#957C62"/>
+            <path d="M37.2779 57.611C38.5775 57.611 45.7501 52.5277 45.7501 47.4443H28.8057C28.8057 52.5277 35.9782 57.611 37.2779 57.611Z" fill="#957C62"/>
+            <path d="M29.8899 47.5087C29.8899 52.3311 44.6654 52.5277 44.6654 47.5087V41.1562H29.8899V47.5087Z" fill="#957C62"/>
+            <path d="M29.8764 44.0098C31.9369 46.338 34.4921 46.9683 37.271 46.9683C40.0499 46.9683 42.6017 46.3363 44.6639 44.0098V38.0945H29.8748L29.8764 44.0098Z" fill="#957C62"/>
+            <path d="M26.1689 27.0026C26.1689 29.4562 24.9252 31.4455 23.3917 31.4455C21.8582 31.4455 20.6145 29.4562 20.6145 27.0026C20.6145 24.5491 21.8582 22.5581 23.3917 22.5581C24.9252 22.5564 26.1689 24.5474 26.1689 27.0026ZM53.9391 27.0026C53.9391 29.4562 52.6971 31.4455 51.1619 31.4455C49.6285 31.4455 48.3848 29.4562 48.3848 27.0026C48.3848 24.5491 49.6268 22.5581 51.1619 22.5581C52.6971 22.5564 53.9391 24.5474 53.9391 27.0026Z" fill="#957C62"/>
+            <path d="M22.8359 28.7361C22.8359 19.2659 29.3019 11.5867 37.2777 11.5867C45.2534 11.5867 51.7177 19.2659 51.7177 28.7361C51.7177 38.2064 45.2534 45.8856 37.2777 45.8856C29.3036 45.8856 22.8359 38.2081 22.8359 28.7361Z" fill="#957C62"/>
+            <path d="M37.2778 40.3311C32.6113 40.3311 31.1778 39.1365 30.9389 38.8942C30.8332 38.7939 30.7483 38.6737 30.6891 38.5405C30.6298 38.4073 30.5974 38.2638 30.5936 38.1181C30.586 37.8239 30.6956 37.5386 30.8983 37.3252C31.1009 37.1117 31.3801 36.9875 31.6744 36.9799C31.9686 36.9722 32.2539 37.0818 32.4673 37.2845C32.5554 37.3472 33.689 38.1097 37.2778 38.1097C41.0056 38.1097 42.0833 37.2879 42.0935 37.2794C42.1961 37.1783 42.3178 37.0987 42.4515 37.0452C42.5852 36.9917 42.7283 36.9653 42.8723 36.9677C43.0163 36.97 43.1584 37.0011 43.2903 37.059C43.4222 37.1169 43.5412 37.2004 43.6405 37.3048C43.8454 37.5201 43.9576 37.8072 43.9532 38.1044C43.9488 38.4015 43.828 38.6851 43.6168 38.8942C43.3778 39.1365 41.9443 40.3311 37.2778 40.3311Z" fill="#957C62"/>
+            <path d="M37.2777 5.89673C46.8479 5.89673 52.8293 12.9592 52.8293 18.844C52.8293 24.7288 51.633 27.0841 50.4368 24.7288L48.0442 20.0216C48.0442 20.0216 40.8682 20.0216 38.4757 17.6663C38.4757 17.6663 42.0645 24.7288 34.8868 17.6663C34.8868 17.6663 36.0831 22.3752 28.9055 16.4904C28.9055 16.4904 25.3166 18.844 24.1203 24.7288C23.7882 26.3622 21.7278 24.7288 21.7278 18.844C21.7261 12.9592 26.5112 5.89673 37.2777 5.89673Z" fill="#957C62"/>
+            <path d="M30.5001 28.8055C29.5682 28.8055 28.8057 28.043 28.8057 27.1111V25.4166C28.8057 24.4847 29.5682 23.7222 30.5001 23.7222C31.4321 23.7222 32.1946 24.4847 32.1946 25.4166V27.1111C32.1946 28.043 31.4321 28.8055 30.5001 28.8055ZM44.0557 28.8055C43.1237 28.8055 42.3612 28.043 42.3612 27.1111V25.4166C42.3612 24.4847 43.1237 23.7222 44.0557 23.7222C44.9876 23.7222 45.7501 24.4847 45.7501 25.4166V27.1111C45.7501 28.043 44.9876 28.8055 44.0557 28.8055Z" fill="#957C62"/>
+            <path d="M38.5486 33.4653H36.0069C35.3071 33.4653 34.7361 32.8942 34.7361 32.1944C34.7361 31.4946 35.3071 30.9236 36.0069 30.9236H38.5486C39.2484 30.9236 39.8194 31.4946 39.8194 32.1944C39.8194 32.8942 39.2484 33.4653 38.5486 33.4653Z" fill="#957C62"/>
+            <path d="M22.0278 47.4443H27.1112V60.9999H22.0278V47.4443ZM47.4445 47.4443H52.5278V60.9999H47.4445V47.4443Z" fill="#957C62"/>
+            <path d="M22.2395 59.3057H52.5277V61.0001H22.2395V59.3057Z" fill="#957C62"/>
+            <path d="M50.8333 14.9111C50.8333 17.1478 45.5941 18.6389 37.2777 18.6389C28.9597 18.6389 23.7222 17.1478 23.7222 14.9111C23.7222 8.90092 30.4999 0 32.7586 0C35.0173 0 36.5254 2.98222 37.2777 2.98222C38.0301 2.98222 39.5364 0 41.7968 0C44.0572 0 50.8333 8.90092 50.8333 14.9111Z" fill="#75614C"/>
+            <path d="M60.9 13.5555C60.9 16.3632 54.9695 23.7222 37.1778 23.7222C19.3861 23.7222 13.4556 16.3632 13.4556 13.5555C13.4556 10.7478 25.0117 11.8611 37.1778 11.8611C49.3439 11.8611 60.9 10.7478 60.9 13.5555Z" fill="#75614C"/>
+            <path d="M50.8333 14.9111C50.8333 17.1478 45.5941 18.6389 37.2777 18.6389C28.9597 18.6389 23.7222 17.1478 23.7222 14.9111C23.7222 13.952 23.895 12.9201 24.1949 11.8611C28.2413 15.25 46.3142 15.25 50.3622 11.8679C50.6588 12.9235 50.8333 13.9537 50.8333 14.9111Z" fill="#957C62"/>
+            <path d="M11.8611 53.7987C11.8611 53.237 11.638 52.6982 11.2407 52.301C10.8435 51.9038 10.3048 51.6807 9.74306 51.6807C9.18131 51.6807 8.64258 51.9038 8.24536 52.301C7.84815 52.6982 7.625 53.237 7.625 53.7987V61.0001H11.8611V53.7987Z" fill="#957C62"/>
+            <path d="M16.9495 38.5487C16.9495 42.5306 13.7233 45.7552 9.74306 45.7552C5.76281 45.7552 2.53658 42.5306 2.53658 38.5487C2.53658 38.403 0 38.4064 0 38.5487C0 41.1327 1.0265 43.6109 2.85367 45.4381C4.68085 47.2653 7.15904 48.2918 9.74306 48.2918C12.3271 48.2918 14.8053 47.2653 16.6324 45.4381C18.4596 43.6109 19.4861 41.1327 19.4861 38.5487C19.4861 38.4064 16.9495 38.403 16.9495 38.5487Z" fill="#957C62"/>
+            <path d="M2.54167 38.5486C2.54167 38.8857 2.40778 39.2089 2.16945 39.4472C1.93112 39.6856 1.60788 39.8194 1.27083 39.8194C0.933787 39.8194 0.610546 39.6856 0.372218 39.4472C0.133891 39.2089 0 38.8857 0 38.5486L0 24.1458C0 23.8088 0.133891 23.4855 0.372218 23.2472C0.610546 23.0089 0.933787 22.875 1.27083 22.875C1.60788 22.875 1.93112 23.0089 2.16945 23.2472C2.40778 23.4855 2.54167 23.8088 2.54167 24.1458V38.5486ZM19.4861 38.5486C19.4861 38.8857 19.3522 39.2089 19.1139 39.4472C18.8756 39.6856 18.5523 39.8194 18.2153 39.8194C17.8782 39.8194 17.555 39.6856 17.3167 39.4472C17.0783 39.2089 16.9444 38.8857 16.9444 38.5486V24.1458C16.9444 23.8088 17.0783 23.4855 17.3167 23.2472C17.555 23.0089 17.8782 22.875 18.2153 22.875C18.5523 22.875 18.8756 23.0089 19.1139 23.2472C19.3522 23.4855 19.4861 23.8088 19.4861 24.1458V38.5486ZM11.0139 52.5278C11.0139 52.8648 10.88 53.1881 10.6417 53.4264C10.4033 53.6647 10.0801 53.7986 9.74306 53.7986C9.40601 53.7986 9.08277 53.6647 8.84444 53.4264C8.60611 53.1881 8.47222 52.8648 8.47222 52.5278V24.1458C8.47222 23.8088 8.60611 23.4855 8.84444 23.2472C9.08277 23.0089 9.40601 22.875 9.74306 22.875C10.0801 22.875 10.4033 23.0089 10.6417 23.2472C10.88 23.4855 11.0139 23.8088 11.0139 24.1458V52.5278Z" fill="#957C62"/>
+            </g>
+            <defs>
+            <clipPath id="clip0_56_2">
+            <rect width="61" height="61" fill="white"/>
+            </clipPath>
+            </defs>
+            </svg>
+            
+</header>
+<body>
+
+    <div id="container-geral">
+        <div id="container-propaganda">
+            
+            <h1>Propaganda</h1>
+            <img src="img/propaganda.png" alt="">
+            <img src="img/propaganda2.png" alt="">
+        </div>           
+   <main>
+    
+    
+    <section class="produto">
+        
+        <div class="info-produto">
+            <h2>Espelho</h2>
+            <p class="texto-produto">Espelho lindo E MUITO BONITOasdaddadsaddasadas asdsadsa sa sa sa sadsdsasa sasa dasdadsad dsa  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>
+            <img class="imgProduto" src="img/espelho.png" alt="">
+            
+            
+        </div>
+        <div class="container-button" >
+            <button  class='button' onclick="AdicionarCarrinho('Espelho', [10,5],['madeira','real'])"  
+            data-nome="espelho" 
+            data-preco='[10,5]'
+            data-descricao="Espelho lindo E MUITO BONITOasdaddadsaddasadas asdsadsa sa sa sa sadsdsasa sasa dasdadsad dsa  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX" 
+            data-dinheiro='["madeira","real"]' 
+            data-preco-mouseover='[10,5]' 
+            data-dinheiro-mouseover='["madeira","couro"]'
+            data-descricao-mouseover="Espelho lindo E MUITO BONITOasdaddadsaddasadas asdsadsa sa sa sa sadsdsasa sasa dasdadsad dsa  XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
+            >Compre por </button>
+            
+        </div>
+        
+    </section>
+    <section class="produto">
+        
+        <div class="info-produto">
+            <h2>Anel</h2>
+            <p class="texto-produto">Anel E MUITO BONITOasdaddadsaddasadas asdsadsa sa sa sa sadsdsasa sasa dasdadsad dsa  </p>
+            <img class="imgProduto" src="img/anel.png" alt="">
+            
+            
+        </div>
+        <div class="container-button" >
+            <button  class='button' onclick="AdicionarCarrinho('Anel', [10,5],['madeira','real'])"  
+            data-nome="Anel" 
+            data-preco='[10,5]' 
+            data-descricao="Anel E MUITO BONITOasdaddadsaddasadas asdsadsa sa sa sa sadsdsasa sasa dasdadsad dsa"  
+            data-dinheiro='["madeira","real"]' 
+            data-preco-mouseover='[10,5]' 
+            data-dinheiro-mouseover='["madeira","real"]'
+            data-descricao-mouseover="Anel E MUITO BONITOasdaddadsaddasadas asdsadsa sa sa sa sadsdsasa sasa dasdadsad dsa">Compre por </button>
+            
+        </div>
+       
+    </section>
+    <section class="produto">
+        
+        <div class="info-produto">
+            <h2>Coroa</h2>
+            <p class="texto-produto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, modi qui! Quidem, cupiditate dicta facere officia soluta similique provident quod. Neque in eaque deleniti saepe, culpa incidunt voluptatibus autem voluptate?</p>
+            <img  class="imgProduto" src="img/Coroa.png" alt="">
+            
+            
+        </div>
+        <div class="container-button" >
+            <button  class='button' onclick="AdicionarCarrinho('Coroa', [10,5],['ouro','ferro'])"
+            data-nome="Coroa" 
+            data-preco='[,]' 
+            data-descricao=""  
+            data-dinheiro='["",""]' 
+            data-preco-mouseover='[,]' 
+            data-dinheiro-mouseover='["",""]'
+            data-descricao-mouseover="">Compre por </button>
+            
+        </div>
+        
+    </section>
+    <section class="produto">
+        
+        <div class="info-produto">
+            <h2>Arco e Flecha</h2>
+            <p class="texto-produto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, modi qui! Quidem, cupiditate dicta facere officia soluta similique provident quod. Neque in eaque deleniti saepe, culpa incidunt voluptatibus autem voluptate?</p>
+            <img class="imgProduto" src="img/Arco e Flecha.png" alt="">
+            
+            
+        </div>
+        <div class="container-button" >
+            <button  class='button' onclick="AdicionarCarrinho('Arco e Flecha', [10,5],[`madeira`,'real'])"
+            data-nome="Arco e Flecha" 
+            data-preco='[,]' 
+            data-descricao=""  
+            data-dinheiro='["",""]' 
+            data-preco-mouseover='[,]' 
+            data-dinheiro-mouseover='["",""]'
+            data-descricao-mouseover="">Compre por </button>
+            
+        </div>
+      
+    </section>
+    <section class="produto">
+        
+        <div class="info-produto">
+            <h2>Cana-de-açucar </h2>
+            <p class="texto-produto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, modi qui! Quidem, cupiditate dicta facere officia soluta similique provident quod. Neque in eaque deleniti saepe, culpa incidunt voluptatibus autem voluptate?</p>
+            <img class="imgProduto" src="img/Cana-de-açucar.png" alt="">
+            
+            
+        </div>
+        <div class="container-button" >
+            <button  class='button' onclick="AdicionarCarrinho('Cana-de-açucar', [10,5],['madeira','real'])"
+            data-nome="Cana-de-açucar" 
+            data-preco='[,]' 
+            data-descricao=""  
+            data-dinheiro='["",""]' 
+            data-preco-mouseover='[,]' 
+            data-dinheiro-mouseover='["",""]'
+            data-descricao-mouseover="">Compre por </button>
+            
+        </div>
+      
+    </section>
+    <section class="produto">
+        
+    <div class="info-produto">
+        <h2>Perfume</h2>
+        <p class="texto-produto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, modi qui! Quidem, cupiditate dicta facere officia soluta similique provident quod. Neque in eaque deleniti saepe, culpa incidunt voluptatibus autem voluptate?</p>
+        <img class="imgProduto" src="img/Perfume.png" alt="">
+        
+        
+    </div>
+    <div class="container-button" >
+        <button  class='button' onclick="AdicionarCarrinho('Perfume', [10,5],['madeira','real'])"
+        data-nome="Perfume" 
+        data-preco='[,]' 
+        data-descricao=""  
+        data-dinheiro='["",""]' 
+        data-preco-mouseover='[,]' 
+        data-dinheiro-mouseover='["",""]'
+        data-descricao-mouseover="">Compre por </button>
+        
+    </div>
+  
+</section>
+<section class="produto">
+        
+<div class="info-produto">
+    <h2>Cavalo</h2>
+    <p class="texto-produto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, modi qui! Quidem, cupiditate dicta facere officia soluta similique provident quod. Neque in eaque deleniti saepe, culpa incidunt voluptatibus autem voluptate?</p>
+    <img class="imgProduto" src="img/Cavalo.png" alt="">
+    
+    
+</div>
+<div class="container-button" >
+    <button  class='button' onclick="AdicionarCarrinho('Cavalo', [10,5],['madeira','real'])"
+    data-nome="Cavalo" 
+    data-preco='[,]' 
+    data-descricao=""  
+    data-dinheiro='["",""]' 
+    data-preco-mouseover='[,]' 
+    data-dinheiro-mouseover='["",""]'
+    data-descricao-mouseover="">Compre por </button>
+    
+</div>
+
+</section>
+<section class="produto">
+        
+<div class="info-produto">
+    <h2>Enxada</h2>
+    <p class="texto-produto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, modi qui! Quidem, cupiditate dicta facere officia soluta similique provident quod. Neque in eaque deleniti saepe, culpa incidunt voluptatibus autem voluptate?</p>
+    <img class="imgProduto" src="img/Enxada.png" alt="">
+    
+    
+</div>
+<div class="container-button" >
+    <button  class='button' onclick="AdicionarCarrinho('Enxada', [10,5],['madeira','real'])"
+    data-nome="Enxada" 
+    data-preco='[,]' 
+    data-descricao=""  
+    data-dinheiro='["",""]' 
+    data-preco-mouseover='[,]' 
+    data-dinheiro-mouseover='["",""]'
+    data-descricao-mouseover="">Compre por </button>
+    
+</div>
+
+</section>
+<section class="produto">
+        
+    <div class="info-produto">
+        <h2>Capitania de Pernambuco</h2>
+        <p class="texto-produto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, modi qui! Quidem, cupiditate dicta facere officia soluta similique provident quod. Neque in eaque deleniti saepe, culpa incidunt voluptatibus autem voluptate?</p>
+        <img class="imgProduto" src="img/Capitania de Pernambuco.png" alt="">
+        
+        
+    </div>
+    <div class="container-button" >
+        <button  class='button' onclick="AdicionarCarrinho('Capitania de Pernambuco', [10,5],['madeira','real'])"
+        data-nome="Capitania de Pernambuco" 
+        data-preco='[,]' 
+        data-descricao=""  
+        data-dinheiro='["",""]' 
+        data-preco-mouseover='[,]' 
+        data-dinheiro-mouseover='["",""]'
+        data-descricao-mouseover="">Compre por </button>
+        
+    </div>
+    
+    </section>
+    <section class="produto">
+        
+        <div class="info-produto">
+            <h2>Candelabro</h2>
+            <p class="texto-produto">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero, modi qui! Quidem, cupiditate dicta facere officia soluta similique provident quod. Neque in eaque deleniti saepe, culpa incidunt voluptatibus autem voluptate?</p>
+            <img class="imgProduto" src="img/Candelabro.png" alt="">
+            
+            
+        </div>
+        <div class="container-button" >
+            <button  class='button' onclick="AdicionarCarrinho('Candelabro', [10,5],['madeira','real'])"
+            data-nome="Candelabro" 
+            data-preco='[,]'
+            data-descricao=""  
+            data-dinheiro='["",""]' 
+            data-preco-mouseover='[,]' 
+            data-dinheiro-mouseover='["",""]'
+            data-descricao-mouseover="">Compre por </button>
+            
+        </div>
+        
+        </section>
+
+
+</div>
+   </main>
+   <script src="carrinho.js">
+   </script>
+    <script>
+        document.getElementById('filterInput').addEventListener('input', function()
+        
+         {
+    var input = this.value.toLowerCase()
+    var containers = document.querySelectorAll('.produto')
+    
+    containers.forEach(function(container) {
+        var text = container.textContent.toLowerCase()
+        if (text.includes(input)) {
+            container.style.display = ''
+        } else {
+            container.style.display = 'none'
+        }
+    })
+})
+ 
+var texto_produto=document.querySelectorAll('.texto-produto')
+var produto = document.querySelectorAll('.produto')
+var buttons = document.querySelectorAll('.button')
+var containerButtons = document.querySelectorAll('.container-button')
+var info_produto = document.querySelectorAll('.info-produto')
+
+const computedStyleBotao = window.getComputedStyle(buttons[0]);
+const originalWidth = computedStyleBotao.width;
+
+const computedStyleContainer = window.getComputedStyle(containerButtons[0]);
+const originalHeight = computedStyleContainer.height;
+
+function MostrarPreco(preco, dinheiro,descricao){
+    let txt = preco.map((preco, i) => 
+            `${preco.toFixed(1)} por ${dinheiro[i]}`
+        ).join(' ou ');
+        txt=descricao+'\n'+txt
+    
+        return txt
+
+}
+
+
+
+buttons.forEach(function(btn, index) {
+    btn.addEventListener('mouseover', function(){
+
+        const nome = btn.getAttribute('data-nome')
+        const preco = JSON.parse(btn.getAttribute('data-preco-mouseover'))
+        const dinheiro = JSON.parse(btn.getAttribute('data-dinheiro-mouseover'))
+        const descricao =btn.getAttribute('data-descricao-mouseover')
+
+        btn.style.fontSize='38px'
+        info_produto[index].style.display='none'
+        texto_produto[index].style.visibility='hidden'
+        containerButtons[index].style.height = '90%'
+        btn.style.width = '100%'
+        produto[index].style.background='transparent'
+        btn.style.backgroundRepeat = 'no-repeat'
+        btn.style.background='url(img/fundoITEM.png)'
+        btn.style.backgroundPosition='0%'
+        containerButtons[index].style.zIndex = '9999' 
+        txt=MostrarPreco(preco,dinheiro,descricao)
+        btn.innerText=txt
+        
+    })
+
+    btn.addEventListener('mouseout', function() {
+        info_produto[index].style.display=''
+        btn.style.fontSize='45px'
+        containerButtons[index].style.height = originalHeight;
+        produto[index].style.backgroundImage='url(img/fundoITEM.png)'
+        produto[index].style.backgroundRepeat = 'no-repeat'
+        produto[index].style.backgroundSize = 'contain'
+        btn.style.width = originalWidth
+        texto_produto[index].style.visibility='visible'
+        btn.innerText='Compre por'
+        btn.style.backgroundImage= 'url(img/fundobotao.png)'
+        btn.style.backgroundSize='cover'
+    })
+})
+
+
+
+
+    
+    </script>
+</body>
+</html>
