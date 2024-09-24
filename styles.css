@@ -16,6 +16,11 @@ header{
     height: 153px;
     margin-top:20px;
 }
+header img{
+    width: auto;
+    object-fit: contain;
+    height: 150%;
+}
 body{
     margin: 0;
     padding: 0;
@@ -64,8 +69,8 @@ body{
 #container-propaganda img{
     background-size: contain;
     background-repeat: no-repeat;
-    width: 240px;
-    margin-left: 5%;
+    width: 210px;
+    margin-left: 10%;
 }
 #containerInput{
     background-image: url('img/fundoInput.png');
@@ -85,7 +90,7 @@ main{
     grid-template-rows: 1fr 1fr;
     align-items: center;
     justify-items: center;
-    
+    gap: 10px;
     height: auto;
     margin: 0;
     padding: 0;
@@ -131,7 +136,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-around;
-  
+  background-repeat: no-repeat;
     flex-direction: column;
 
 }
@@ -152,11 +157,11 @@ button{
     outline: none;
     width: 60%;
     height: 190%;
-    border-radius: 25px;
+    text-align: center;
     transition: 300ms;
     background-position: 50%;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     background-color: transparent;
     background-image: url('img/fundobotao.png');
     font-family:"Lovers Quarrel", cursive;
@@ -166,7 +171,9 @@ button:hover{
     cursor: pointer;
 }
 .button-carrinho{
-    height: 30%;
+    height: 8%;
+    width: 300px;
+    background-size: contain;
 }
 .imgProduto {
     width: 110%; 

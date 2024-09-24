@@ -152,9 +152,67 @@ svg{
 }
 #item{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    row-gap: 75px;
     width: 100vw;
     
-    justify-items: center;
+    justify-content: space-around;
     align-items: center;
+}
+#container-item-carrinho{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 90vw;
+    height: 300px;
+    background-color: #ded1af;
+}
+.preco-carrinho , .subtotal-carrinho , .quantidade-carrinho{
+    font-size: 40px;
+    width: calc(100% + 20px);
+    background-color: white;
+    margin: 0;
+    border-radius: 25px;
+    white-space: nowrap;
+  
+
+}
+#fundo-preco-carrinho , #fundo-subtotal-carrinho , #fundo-quantidade-carrinho{
+  
+    text-align: center;
+    
+    
+    position: relative;
+}
+#fundo-preco-carrinho{
+    left: 10%;
+}
+
+#fundo-quantidade-carrinho{
+    top:-40%;
+}
+#fundo-item-carrinho{
+    background-image:url('img/fundoITEM.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 250px;
+    height: 300px;
+    background-position: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+#fundo-item-carrinho img{
+    object-fit: contain;
+    width: 70%;
+    height: 70%;
+ 
+}
+#button-remover , #button-diminuir{
+    position: relative;
+    top: -80px
+}
+#button-diminuir{
+    left: 27%;
 }

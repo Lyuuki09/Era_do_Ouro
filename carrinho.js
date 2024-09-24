@@ -85,21 +85,25 @@ function AttCarrinho() {
         
 
         elementContainer.innerHTML = `
-            <section class="produto">
-                <div class="info-produto">
-                    <h2>${item.nome}</h2>
+                <div id="container-item-carrinho">
+                    <div id="fundo-item-carrinho">
+                        <img src="img/${item.nome}.png" alt="Imagem do produto ${item.nome} ">
+                    </div>
                     
-                    <img class="imgProduto" src="img/${item.nome}.png" alt="Imagem do ${item.nome}">
-                    <p>Preço: ${detalhes}</p>
-                    <p>Quantidade: ${item.quantidade}</p>
-                    
-                    <p>Subtotal: ${subtotal.join(', ')}</p>
+                <div id="fundo-preco-carrinho"><p class='preco-carrinho'>Preço: ${detalhes}</p>
                 </div>
-                <div class="container-button-carrinho">
-                    <button class='button-carrinho' onclick="RemoverItem('${item.nome}')">Remover</button>
-                    <button class='button-carrinho' onclick="DiminuirItem('${item.nome}')"> Diminuir em 1</button>
+                <div id="fundo-quantidade-carrinho">
+                    <p class='quantidade-carrinho'>Quantidade: ${item.quantidade}</p>
                 </div>
-            </section>
+                <div id="fundo-subtotal-carrinho">
+                    <p class='subtotal-carrinho'>Subtotal: ${subtotal.join(', ')}</p>
+                </div>
+
+
+                </div>
+            </div>
+                    <button class='button-carrinho' id="button-remover" onclick="RemoverItem('${item.nome}')">Remover</button>
+                    <button class='button-carrinho' id="button-diminuir"onclick="DiminuirItem('${item.nome}')"> Diminuir em 1</button>
         `;
         itemContainer.appendChild(elementContainer)
 
